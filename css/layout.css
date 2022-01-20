@@ -56,24 +56,32 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+  width: 100%; 
+
+}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #000;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
-   
+   letter-spacing: 2px;
+   width: 70%;
+   margin: 0 auto;
+   padding: 40px 0;
+   text-align: left;
 }
+
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 1.6em 'opensans-regular', serif;
    color: #000;
    margin: 0 auto;
    width: 70%;
-  
+   text-align: left;
+   padding-bottom: 500px;
+
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #F06000;
+   color: #d62828;
 }
 header .banner-text hr {
    width: 60%;
@@ -87,15 +95,17 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   width:70%;
+   margin: 0 auto;
+   text-align: left;
 }
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #000; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #d62828; }
+header .social li a:hover { color: #000; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,8 +127,13 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #d62828; }
 
+
+#logo-txt {
+  display:inline;
+  text-align: left;
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -130,7 +145,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 16px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -150,7 +165,7 @@ ul#nav {
    width: auto;
 
    /* center align the menu */
-   text-align: center;
+   text-align: right;
 }
 ul#nav li {
    position: relative;
@@ -166,8 +181,8 @@ ul#nav li a {
 
    display: inline-block;
    padding: 8px 13px;
-   line-height: 32px;
-	text-decoration: none;
+   line-height: 40px;
+	 text-decoration: none;
    text-align: left;
    color: #000;
 
@@ -179,7 +194,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #d62828; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +202,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+/*   background: #d62828; */
+   background: #252525;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -200,10 +216,18 @@ ul#nav li.current a { color: #F06000; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
+   text-align: left;
 }
 #about p {
-   line-height: 30px;
-   color: #7A7A7A;
+   font: 1.3em 'opensans-regular';
+   color:#fff;
+   text-align: left;
+
+}
+
+#about p span {
+  font-weight: bold;
+  color:#d62828;
 }
 #about .profile-pic {
    position: relative;
@@ -251,7 +275,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #F06000;
+   border-bottom: 3px solid #d62828;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -330,20 +354,12 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: photoshop 2s ease;
 }
 .sm {
-    width: 80%;
+    width: 90%;
     -moz-animation: photoshop 2s ease;
     -webkit-animation: photoshop 2s ease;
 }
-.writing {
-    width: 70%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
-}
-.photography {
-    width: 70%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
-}
+
+
 .photoshop {
   	width: 90%;
   	-moz-animation: photoshop 2s ease;
@@ -354,26 +370,22 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.premiere {
-    width: 70%;
+.web3 {
+    width: 90%;
     -moz-animation: illustrator 2s ease;
     -webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 65%;
+.smartcontracts {
+  	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
-  	width: 70%;
+.web {
+  	width: 50%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.python {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -673,10 +685,8 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
+   font: 64px 'opensans-bold', sans-serif;   
+   color: #black;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -726,7 +736,6 @@ call-to-action .button {
 .flex-control-nav,
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
 .slides li { margin: 0; padding: 0;}
-
 /* Necessary Styles */
 .flexslider {
    position: relative;
@@ -767,7 +776,6 @@ call-to-action .button {
 /* Control Nav */
 .flex-control-nav {
     width: 100%;
-    position: absolute;
     bottom: -20px;
     text-align: left;
 }
@@ -1020,5 +1028,22 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #d62828; }
+
+
+.row .skill h2 {
+  padding-top: 140px;
+}
+
+#overlap {
+  color:#d62828;
+  position:absolute;
+  z-index: -1;
+  margin-top:-150px;
+  padding:50px;
+  opacity:.1;
+  width:70%;
+  text-align: left;
+}
+
 

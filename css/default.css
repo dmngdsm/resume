@@ -171,6 +171,7 @@ h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader { }
 
+}
 p { margin: 0 0 30px 0; }
 p img { margin: 0; }
 p.lead {
@@ -524,7 +525,7 @@ input::-moz-focus-inner {
 }
 
 button.cta {
-   background: #F06000;
+   background: #d62828;
    opacity: 0.85;
 }
 
@@ -810,20 +811,23 @@ properly.
 
 header#home {
    background: #fff;
-   background-image: url('../images/bg4.jpg');
+   background: url('../images/phunk.png'); 
    z-index: 1;
-   background-color: hsla(0,0%,100%,0.70);
+   background-color: hsla(0,0%,95%);
    background-blend-mode: overlay;
    background-repeat: no-repeat;
-   background-size:auto 100%;
+   background-size:contain 30%;
 
 }
 
 @media (min-width: 400px) and (max-width: 978px) {
 
-          header#home {
+          header #home {
         background-image: none;
         background-color: #fff;
     }
 
 }
+
+
+s
