@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 860px;
    min-height: 500px;
    width: 100%;
    background: #fff;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -196,6 +196,9 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #d62828; }
 
+.down-arrow-wrapper {
+   /* position: relative; */
+}
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -686,7 +689,7 @@ call-to-action .button {
 }
 #testimonials h1 {
    font: 64px 'opensans-bold', sans-serif;   
-   color: #black;
+   color: black;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
