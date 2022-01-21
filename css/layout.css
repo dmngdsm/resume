@@ -225,6 +225,8 @@ ul#nav li.current a { color: #d62828; }
    font: 1.3em 'opensans-regular';
    color:#fff;
    text-align: left;
+   margin: 0 auto;
+   width: 80%;
 
 }
 
