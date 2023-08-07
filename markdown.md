@@ -1,17 +1,23 @@
-Great questions! Your approach to weight selection will depend on your existing strength and your goals for the phase. Since Phase 1 is about building strength and foundation, here's how you might approach it:
+Of course! A comprehensive stretching and mobility routine can be beneficial for any type of fitness program. Here are some exercises you might incorporate:
 
-**Deadlifts (and other exercises):**
-- **Initial Weight Selection:** Start with a weight that's around 70-75% of your estimated 1-rep max (1RM) for 6-8 reps. This weight should be challenging but not maximal, allowing you to focus on form and technique.
-- **Progression:** If you successfully complete 3 sets of 8 reps at a given weight, you can consider increasing the weight by around 2.5% to 5% for the next session. So, if you lifted 70kg, you might go up to 72-74kg next time.
-- **Same Weight Across Sets:** Aim to use the same weight across all sets, but it's okay to adjust if needed. If the weight feels too light or heavy, you can modify it for the subsequent sets.
-- **Warm-Up Sets:** Before your working sets, do 1-2 warm-up sets with lighter weights to prepare your muscles. This can be something like 50% of your working set weight for 8 reps, followed by 60% for 6 reps.
+1. **Foam Rolling**: Begin your routine with foam rolling to help break up muscle knots. Key areas to target can include your calves, quads, hamstrings, glutes, back, and lats.
 
-**Example for Deadlifts:**
-- Warm-up set 1: 50% of working set weight x 8 reps
-- Warm-up set 2: 60% of working set weight x 6 reps
-- Working set 1: 70kg x 8 reps
-- Working set 2: 70kg x 8 reps
-- Working set 3: 70kg x 8 reps
-- (If successful with all 8 reps for 3 sets, consider increasing to 72-74kg next session)
+2. **Hip Circles**: Stand with your hands on your hips and feet shoulder-width apart. Make circles with your hips clockwise and then counter-clockwise.
 
-The goal in this phase is steady progress without pushing to failure. Focus on consistency, proper form, and gradually increasing the weight as you become more comfortable. Make sure to listen to your body and make adjustments as needed. If something feels too easy or too challenging, don't hesitate to modify the weights.
+3. **Cat-Camel Stretch**: Start on your hands and knees. Round your back by tucking in your pelvis and dropping your head down (cat position). Then lift your head and tailbone while lowering your belly button towards the floor (camel position).
+
+4. **Quadruped Thoracic Rotations**: On all fours, place your right hand behind your head and rotate your right elbow towards your left arm. Then rotate your elbow up towards the ceiling as far as comfortably possible. Repeat on the other side.
+
+5. **Hip Flexor Stretch**: Kneel on one knee and press forward, keeping your upper body straight. You should feel a stretch in the front of your hip. Repeat on the other side.
+
+6. **Glute Bridges**: Lay on your back with knees bent and feet flat on the ground. Push through your heels to raise your hips off the ground, squeezing your glutes at the top.
+
+7. **Leg Swings**: Hold onto a wall or rack, swing one leg forwards and backwards in a controlled manner. Repeat on the other side.
+
+8. **Arm Circles**: Extend your arms to your sides and make circles forwards and then backwards.
+
+9. **Wall Slides**: Stand with your back against a wall, arms in a "W" shape. Slide your arms up into a "Y" shape, then back down, keeping your back and arms in contact with the wall.
+
+10. **Standing Chest Stretch**: Stand in a doorway, place your forearm on the doorframe with your elbow at a 90-degree angle, then lean forward to stretch your chest. Repeat on the other side.
+
+Aim for about 30 seconds to 1 minute per stretch, and remember to focus on your breath and the quality of your movements. If you feel any sharp pain, stop and adjust as needed. These exercises should help improve your flexibility, joint health, and overall mobility!
