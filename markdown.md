@@ -1,19 +1,36 @@
-Absolutely! Designing a program that evolves over time is an excellent approach to avoid plateaus and keep your workouts engaging. We can create a plan with phases, where each phase lasts about 4 weeks. Here's how it might look:
+Fantastic! Here's a more detailed plan for Phase 1. You'll follow this routine for the first 4 weeks.
 
-**Phase 1 (Weeks 1-4):**
-- **Strength & Foundation Building:** Focus on core compound movements, like deadlifts, squats, and bench presses.
-- **Flexibility Training:** Basic stretching and mobility work tailored to Brazilian jiu-jitsu.
+### Phase 1 (Weeks 1-4): Strength & Foundation Building
 
-**Phase 2 (Weeks 5-8):**
-- **Progressive Overload:** Increase intensity by adding weights or changing rep schemes.
-- **Variation in Exercises:** Introduce new exercises that target the same muscle groups but offer variety.
-- **Advanced Flexibility Training:** Incorporate more advanced stretching techniques to continue improving flexibility.
+**Workout A: Upper Body & Power Focus**
+- Deadlift: 3 sets x 6-8 reps
+- Bench Press: 3 sets x 6-8 reps
+- Pull-Ups: 3 sets x 8-10 reps
+- Dumbbell Bicep Curls: 3 sets x 10-12 reps
+- Tricep Dips: 3 sets x 10-12 reps
+- **Stretching & Mobility:** 10 minutes of Brazilian jiu-jitsu specific stretches
 
-**Phase 3 (Weeks 9-12):**
-- **Power & Performance Focus:** Emphasize exercises that build explosive power, using plyometrics or other techniques.
-- **Calisthenics & Body Weight:** Incorporate more calisthenic exercises for a well-rounded approach.
-- **Recovery Focus:** Implement specific recovery strategies to ensure continued progress without overtraining.
+**Workout B: Lower Body & Core Focus**
+- Squats: 3 sets x 6-8 reps
+- Bulgarian Split Squats: 3 sets x 8-10 reps each leg
+- Leg Raises: 3 sets x 12-15 reps
+- Plank: 3 x 60 seconds
+- **Stretching & Mobility:** 10 minutes of overall body stretches focusing on legs and core
 
-After these 12 weeks, we can evaluate your progress and either continue with a similar rotation or introduce entirely new strategies based on your needs and progress.
+**Weekly Schedule:**
+- Monday: Workout A
+- Wednesday: Brazilian jiu-jitsu practice
+- Friday: Workout B
+- Saturday: Brazilian jiu-jitsu practice
+- Other Days: Active recovery (light cardio, stretching)
 
-I'll get started on detailing these phases, including the specific exercises, sets, reps, and nutritional guidance for each phase. Feel free to reach out during any phase for adjustments or further assistance!
+**Nutrition Plan:**
+- **Protein:** Aim for at least 1.5x your body weight in grams (approximately 100-102g per day)
+- **Meals:** Include fish, seafood, legumes, tofu, eggs, dairy, whole grains, fruits, and vegetables
+- **Supplementation:** Continue with your plant-based and whey protein as needed, along with multivitamins and magnesium citrate
+
+**Tracking & Support:**
+- Record your progress in Google Sheets, focusing on performance in exercises, dietary adherence, and how you feel physically.
+- Feel free to reach out if you have questions or need adjustments.
+
+Please ensure to warm up properly before each session and consult with a healthcare professional if you have any concerns about the exercises. Let's get started, and I'll be here for you when you're ready to move into Phase 2 or if you need anything else along the way!
