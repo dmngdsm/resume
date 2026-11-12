@@ -1,0 +1,13 @@
+# Temporary personal page
+
+White background, near-black oversized sans-serif prose, muted gray emphasis, underlined inline links. No images, navigation menu, cards or custom font downloads. Work and role take precedence over a portrait.
+
+Small name and location at the top. Three short paragraphs introduce Ivan, his current role at Ambire, and an invitation to connect by email. A quiet footer notes the forthcoming portfolio and links to social profiles.
+
+Use fluid typography, generous whitespace, 24px mobile gutters, visible keyboard focus and semantic HTML. Minimum text size 12px. Verify at 375px and 1440px.
+
+Local motion experiment: a saturated electric blue (#2B47F2) pointer trail with a dense center and feathered edges. Feathered strokes, with the responsive brush radius reduced by 20%, and fine, stationary noise appear behind the typography, linger briefly and dissolve back into white. Each brush sample expires after 0.7 seconds; the canvas is cleared and redrawn every frame so no residual outlines accumulate. Grain uses lighter and darker saturated blue tones. Grain is composited only into the existing paint alpha, so it fades with the stroke and never textures the white background. The paint layer uses 90% opacity for a vivid blue stroke behind the text and never intercepts links or selection. All text responds word by word: words turn white when the dense blue trail covers their center, then return to their original black or gray as it fades. Link underlines also turn white when covered. Detection follows the brush opacity, not just pointer hover; keyboard focus outlines remain visible. Touch and reduced-motion users see the original still page. Animation runs only while a trail is visible, clears on resize/tab hiding, and uses no additional dependencies.
+
+Header interaction: The header defaults to “Ivan Manchev”. Every 7 seconds (from reveal start to reveal start), it scrambles to “Web3, AI, Creative direction”, holds the completed phrase for 1.5 seconds, then scrambles back to the name. Mouse hover or visible keyboard focus reveals the interests and pauses the timer; leaving resumes the rotation after 7 seconds. Touch taps reveal the phrase for the same 1.5-second hold (a second tap closes it) and restart the 7-second schedule. Automatic rotation pauses while the tab is hidden. Reserve the longer label width to prevent shifting; the header wraps on narrow screens. Scramble runs for 650ms, cancels cleanly on reversal, and switches immediately with reduced motion. Assistive technology gets a stable heading label.
+
+This is an interim page; the full portfolio remains in planning. Static export is written to `out/`. Production replacement requires hosting details and explicit authorization.
