@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { paintCoverage, type PaintStamp } from "../../lib/paint-coverage";
 import { koiPaintStamps } from "../../lib/koi-motion";
 
-export function CursorPaint() {
+export function CursorPaint({ pointerPainting = true }: { pointerPainting?: boolean }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -183,16 +183,18 @@ export function CursorPaint() {
       if (canSwim()) frame = requestAnimationFrame(fade);
     };
     resize();
-    window.addEventListener("pointermove", paintPointer, { passive: true });
-    window.addEventListener("touchstart", paintTouch, { passive: true });
-    window.addEventListener("touchmove", paintTouch, { passive: true });
-    window.addEventListener("touchend", endTouch, { passive: true });
-    window.addEventListener("touchcancel", endTouch, { passive: true });
+    if (pointerPainting) {
+      window.addEventListener("pointermove", paintPointer, { passive: true });
+      window.addEventListener("touchstart", paintTouch, { passive: true });
+      window.addEventListener("touchmove", paintTouch, { passive: true });
+      window.addEventListener("touchend", endTouch, { passive: true });
+      window.addEventListener("touchcancel", endTouch, { passive: true });
+      window.addEventListener("scroll", scroll, { passive: true });
+      document.documentElement.addEventListener("pointerleave", leave);
+    }
     window.addEventListener("resize", resize);
     window.addEventListener("blur", clear);
     window.addEventListener("focus", resume);
-    window.addEventListener("scroll", scroll, { passive: true });
-    document.documentElement.addEventListener("pointerleave", leave);
     document.addEventListener("visibilitychange", resume);
     motionAllowed.addEventListener("change", resume);
     return () => {
@@ -210,7 +212,7 @@ export function CursorPaint() {
       document.removeEventListener("visibilitychange", resume);
       motionAllowed.removeEventListener("change", resume);
     };
-  }, []);
+  }, [pointerPainting]);
 
   return <canvas ref={canvasRef} className="cursor-paint" aria-hidden="true" />;
 }

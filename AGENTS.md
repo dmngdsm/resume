@@ -16,13 +16,16 @@ Temporary prose landing page with inline links, a canvas paint interaction and a
 - Build: `pnpm build`
 - Prepare GitHub Pages: `pnpm pages` (builds and copies export into `docs/`)
 
-Two autonomous koi-like paint strokes are enabled by default, with mouse and passive touch painting. Add `?koi=0` for a pointer-only comparison. Respect native mobile scrolling, pinch zoom and reduced motion.
+The homepage enables two autonomous koi-like paint strokes, with mouse and passive touch painting. `/work/` has koi only, without mouse or touch painting. Individual project pages have no paint canvas or blue strokes; the shared portfolio shell defaults to paint disabled. Add `?koi=0` on the homepage for a pointer-only comparison. Respect native mobile scrolling, pinch zoom and reduced motion.
 
 No lint or test runner is configured for the temporary static page.
 
 ## Code map
 - `src/app/`: routes and layouts
 - `src/app/page.tsx`: temporary introduction and contact/social links
+- `src/app/work/page.tsx`: project links, starting with Ambire Ice
+- `src/app/ethprague/page.tsx`: ETH Prague talk introduction and embedded YouTube video
+- `src/components/portfolio-shell.tsx`: shared shell; project pages default to a sticky “← Ivan Manchev / work” link to `/work/`; work uses “← Ivan Manchev” linking home; the homepage retains the scrambling header
 - `src/app/globals.css`: responsive typography and page styling
 - `src/components/ui/`: paint, text and header interactions
 - `src/lib/`: paint coverage, koi motion and scramble helpers
