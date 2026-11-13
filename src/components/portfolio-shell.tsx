@@ -22,7 +22,7 @@ export function PortfolioShell({ children, paint, variant = "project" }: { child
         {children}
 
         <footer className="page-footer flex flex-wrap items-end justify-between gap-x-10 gap-y-6">
-          <p>A new home for my work is on its way.</p>
+          <p>This page lives on my <a href="https://github.com/dmngdsm">Github</a></p>
           <p>Elsewhere: <a href="https://x.com/vanzooeth">X</a>, <a href="https://www.instagram.com/dmngdsm/">Instagram</a> &amp; <a href="https://www.linkedin.com/in/ivanmanchev/">LinkedIn</a>.</p>
         </footer>
       </PaintText>

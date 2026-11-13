@@ -2,7 +2,7 @@
 
 White background, near-black oversized sans-serif prose, muted gray emphasis, underlined inline links. No images, navigation menu, cards or custom font downloads. Work and role take precedence over a portrait.
 
-Small name and location at the top. Three short paragraphs introduce Ivan, his current role at Ambire, and an invitation to connect by email. A quiet footer notes the forthcoming portfolio and links to social profiles.
+Small name and location at the top. Three short paragraphs introduce Ivan, his current role at Ambire, and an invitation to connect by email. A quiet footer reads “This page lives on my Github”, linking “Github” to `https://github.com/dmngdsm`, alongside social profiles.
 
 Use fluid typography, generous whitespace, 24px mobile gutters, visible keyboard focus and semantic HTML. Minimum text size 12px. Verify at 375px and 1440px.
 
