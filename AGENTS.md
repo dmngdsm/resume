@@ -7,7 +7,7 @@ Stack: [Next.js, TypeScript, Tailwind].
 Package manager: pnpm.
 
 ## Current implementation
-Temporary text-only landing page with inline links. Next.js App Router, TypeScript and Tailwind CSS; static export to `out/`. Full portfolio is still in planning.
+Temporary prose landing page with inline links, a canvas paint interaction and a scrambling header. Next.js App Router, TypeScript and Tailwind CSS; static export to `out/`. Full portfolio is still in planning.
 
 ## Commands
 - Install: `pnpm install`
@@ -16,12 +16,16 @@ Temporary text-only landing page with inline links. Next.js App Router, TypeScri
 - Build: `pnpm build`
 - Prepare GitHub Pages: `pnpm pages` (builds and copies export into `docs/`)
 
+Two autonomous koi-like paint strokes are enabled by default, with mouse and passive touch painting. Add `?koi=0` for a pointer-only comparison. Respect native mobile scrolling, pinch zoom and reduced motion.
+
 No lint or test runner is configured for the temporary static page.
 
 ## Code map
 - `src/app/`: routes and layouts
 - `src/app/page.tsx`: temporary introduction and contact/social links
 - `src/app/globals.css`: responsive typography and page styling
+- `src/components/ui/`: paint, text and header interactions
+- `src/lib/`: paint coverage, koi motion and scramble helpers
 - `docs/design.md`: design guidance
 - `docs/` other files: generated GitHub Pages export; regenerate with `pnpm pages`
 - `scripts/prepare-pages.mjs`: packages static export and custom-domain configuration
