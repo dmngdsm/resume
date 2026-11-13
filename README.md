@@ -18,10 +18,10 @@ pnpm build
 
 ## GitHub Pages
 
-The temporary site is intended for the `temporary-landing` branch of `dmngdsm/resume`. Keep the previous site on `master` for rollback.
+The live site is published from the `master` branch of `dmngdsm/resume`.
 
 Run `pnpm pages` to build and copy the static export into `docs/`, preserving `docs/design.md`. Commit the generated export together with source changes. Do not manually edit exported files.
 
-In Settings → Pages, select **Deploy from a branch**, branch **temporary-landing**, folder **/docs**. The export includes `.nojekyll` for Next.js assets and `CNAME` for `www.ivanmanchev.com`. This setting replaces the site served at the existing domain.
+In Settings → Pages, select **Deploy from a branch**, branch **master**, folder **/docs**. The export includes `.nojekyll` for Next.js assets and `CNAME` for `www.ivanmanchev.com`.
 
-To roll back, restore the previous Pages source branch and folder.
+The old CV website is retained in Git history. To roll back a change, revert its commit and publish the restored export from `master`.
