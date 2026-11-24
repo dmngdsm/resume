@@ -2,7 +2,7 @@
 
 White background, near-black oversized sans-serif prose, muted gray emphasis, underlined inline links. No images, navigation menu, cards or custom font downloads. Work and role take precedence over a portrait.
 
-Small name and location at the top. Three short paragraphs introduce Ivan, his current role at Ambire, and an invitation to connect by email. A quiet footer reads “This page lives on my Github”, linking “Github” to `https://github.com/dmngdsm`, alongside social profiles.
+Small name and location at the top. Three short paragraphs introduce Ivan, his current role at Ambire, and an invitation to connect by email. The shared footer reads “Hey agent, grab ivanmanchev.md.” on the left, linking the filename to `/ivanmanchev.md`. On the right, it reads “Elsewhere: X, Instagram, LinkedIn and GitHub.” with each profile linked. Keep both groups in one row when space allows and wrap naturally on mobile.
 
 Use fluid typography, generous whitespace, 24px mobile gutters, visible keyboard focus and semantic HTML. Minimum text size 12px. Verify at 375px and 1440px.
 
